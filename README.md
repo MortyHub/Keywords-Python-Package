@@ -1,7 +1,8 @@
 # Keyword Package
 **This is a tool that will make keyword managing so much easier, this can be used in things for online marketing for ads and much more!**
 ## Use
-**To import simply use `from Keyword import *`. To create a keyword use:**
+**To import simply use `from Keywords.src.Keyword
+ import *`. To create a keyword use:**
 ```py
 # Example will become the keyword object
 Example = Keywords("Name", "Key")
