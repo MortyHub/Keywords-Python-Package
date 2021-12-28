@@ -23,3 +23,10 @@ class Keywords:
     
     def setKey(self, key):
         self.keyword = key
+
+    def remove(self):
+        self.name = None
+        self.keyword = None
+    
+    def setName(self, name):
+        self.name = name

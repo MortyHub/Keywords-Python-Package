@@ -31,3 +31,11 @@ Example.testKey("Key")
 # will return True
 Example.testName("Name")
 ```
+**We can delete a tag using:**
+```py
+Example.remove()
+```
+**We can set the name of an item using:**
+```py
+Example.setName("New-Name")
+```
