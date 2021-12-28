@@ -1,6 +1,12 @@
 [build-system]
-requires = [
-    "setuptools>=42",
-    "wheel"
-]
 build-backend = "setuptools.build_meta"
+requires = ["setuptools>=42", "wheel"]
+
+[tool.poetry]
+authors = ["Nicholas nickageddes09@gmail.com"]
+name = "Nicholas"
+version = "0.0.1"
+description = "A Package That Makes Keyword Management Easier"
+
+[tool.poetry.dependencies]
+pypirc = "^1.0.4"
