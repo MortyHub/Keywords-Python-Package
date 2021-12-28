@@ -20,3 +20,6 @@ class Keywords:
             return True
         else:
             return False
+    
+    def setKey(self, key):
+        self.keyword = key
